@@ -3,10 +3,6 @@ const morgan = require("morgan");
 const createError = require("http-errors");
 require("dotenv").config();
 require("./helper/init_mongodb");
-const mongoose = require("mongoose");
-// mongoose.connect(
-//   "mongodb+srv://saimanojsirigiri:Howzdat301@quiz-project.qnixsdh.mongodb.net/?retryWrites=true&w=majority"
-// );
 
 const route = require("./Routing/User.route");
 
