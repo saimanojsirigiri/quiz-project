@@ -1,4 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "dependecies": "next"
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
