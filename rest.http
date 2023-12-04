@@ -1,1 +1,38 @@
 
+GET http://localhost:3031
+
+###
+GET http://localhost:3031/user/fetchAllUsers
+
+###
+GET http://localhost:3031/user/65645e9a49ca7b07b88eaaef
+
+###
+POST http://localhost:3031/user/addUser
+Content-Type: application/json
+
+{
+    "fullName":"Samanvitha",
+    "address":"Ameerpet",
+    "phone":"8963367896",
+    "email":"sam@gmail.com",
+    "profilePhotoUrl":"awfyferrgg",
+    "userRole":"Database Admin",
+    "userName":"sam123",
+    "doB":"2000-05-20"
+}
+
+###
+PUT  http://localhost:3031/user/updateUser/65659bed2163d4afe544def6
+Content-Type: application/json
+
+{
+    "fullName": "C Samanvitha",
+    "address": "Ameerpet",
+    "phone": "7823698236",
+    "profilePhotoUrl":"sfafgfgfhgrrgrhh",
+    "userRole": "Designer"
+}
+
+###
+DELETE  http://localhost:3031/user/deleteUser/65696cf831e5c621395376c4
